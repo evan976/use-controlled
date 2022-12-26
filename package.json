@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/use-controlled.esm.js",
   "typings": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build --entry packages/index.ts",
@@ -34,6 +36,7 @@
   "homepage": "https://github.com/wujihua118/use-controlled#readme",
   "devDependencies": {
     "@types/lodash.upperfirst": "^4.3.7",
+    "@types/react": "^18.0.26",
     "lodash.upperfirst": "^4.3.1",
     "react": "^18.2.0",
     "tsdx": "^0.14.1",
