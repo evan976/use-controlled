@@ -7,7 +7,7 @@ export interface ChangeHandler<T, A extends any[]> {
 
 const noop = () => {}
 
-const useControlled = <T, A extends any[]>(
+export const useControlled = <T, A extends any[]>(
   props: Record<string, any> = {},
   valueKey: string,
   onChange: ChangeHandler<T, A>
@@ -27,5 +27,3 @@ const useControlled = <T, A extends any[]>(
     },
   ]
 }
-
-export default useControlled
