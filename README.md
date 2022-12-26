@@ -1,13 +1,15 @@
 # use-controlled
 
-🆒 Easily manage controlled/uncontrolled property values of your components.
+<div align="center">
+Easily manage controlled/uncontrolled property values of your components
+</div>
+<br />
+<div align="center">✌🏻</div>
 
 <br />
 <div align="center">
 <pre>pnpm add use-controlled</pre>
 </div>
-<br />
-<br />
 
 ## Usage
 
