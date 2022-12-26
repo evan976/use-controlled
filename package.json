@@ -5,12 +5,10 @@
   "main": "dist/index.js",
   "module": "dist/use-controlled.esm.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build",
+    "build": "tsdx build --entry packages/index.ts",
     "prepublishOnly": "pnpm run build",
     "publish": "npm publish"
   },
@@ -36,10 +34,10 @@
   "homepage": "https://github.com/wujihua118/use-controlled#readme",
   "devDependencies": {
     "@types/lodash.upperfirst": "^4.3.7",
-    "@types/react-dom": "^18.0.10",
     "lodash.upperfirst": "^4.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.1",
     "typescript": "^4.9.4"
   }
 }
